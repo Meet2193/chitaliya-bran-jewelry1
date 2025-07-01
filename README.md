@@ -1,1 +1,1 @@
-# chitaliya-bran-jewelry1
+# Jewelry Branding Studio

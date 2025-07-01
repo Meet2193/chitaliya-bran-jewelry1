@@ -562,7 +562,7 @@ function App() {
       const zipBlob = await zip.generateAsync({ type: 'blob' });
       const url = URL.createObjectURL(zipBlob);
       const a = document.createElement('a');
-      a.download = `chitaliya-branded-jewelry-${Date.now()}.zip`;
+      a.download = `branded-jewelry-${Date.now()}.zip`;
       a.href = url;
       document.body.appendChild(a);
       a.click();
@@ -731,7 +731,7 @@ function App() {
                 <Sparkles className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Chitaliya Jewelry Branding Studio</h1>
+                <h1 className="text-2xl font-bold text-gray-900">Jewelry Branding Studio</h1>
                 <p className="text-sm text-gray-600">Professional logo placement for your jewelry images</p>
               </div>
             </div>
